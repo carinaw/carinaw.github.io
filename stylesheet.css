@@ -18,6 +18,7 @@ font-family: Geneva;
 ul {
 	list-style-position:inside;
 	list-style-image: url("snowflake-black.png");
+	vertical-align: middle;
 }
 
 li {
