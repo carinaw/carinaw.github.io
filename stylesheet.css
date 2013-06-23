@@ -19,8 +19,8 @@ li {
 font-family: Geneva;
 }
 
-a:link {
-	color: #08298A;
+a {text-decoration: none;
+	color: #08298A;}
 }
 a:visited {color: #08298A;}
 a:hover {
