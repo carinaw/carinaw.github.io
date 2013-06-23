@@ -18,11 +18,3 @@ font-family: Geneva;
 li {
 font-family: Geneva;
 }
-
-a {text-decoration: none;
-	color: #08298A;}
-}
-a:visited {color: #08298A;}
-a:hover {
-text-decoration: underline;
-}
