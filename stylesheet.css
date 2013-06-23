@@ -1,4 +1,14 @@
 div {
 color: blue;
 font: cursive;
+font-family: Gill Sans;
+}
+
+p {
+font-family: Geneva;
+
+}
+
+h2 {
+font-family: Geneva;
 }
