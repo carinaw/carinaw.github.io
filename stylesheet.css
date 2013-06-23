@@ -22,6 +22,7 @@ font-family: Geneva;
 a:link {
 	color: #08298A;
 }
+a:visited {color: #08298A;}
 a:hover {
 text-decoration: underline;
 }
