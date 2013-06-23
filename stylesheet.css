@@ -17,7 +17,7 @@ font-family: Geneva;
 
 ul {
 	list-style-position:inside;
-	list-style-image:url('snowflake-black.png');
+	list-style-image: url("snowflake-black.png");
 }
 
 li {
@@ -26,12 +26,5 @@ font-family: Geneva;
 
 a {
 	text-decoration:none;
-}
-a:visited {
-	color: 08298A;
-	text-decoration:none;
-}
-a:hover {
-	text-decoration:underline;
 }
 ;
