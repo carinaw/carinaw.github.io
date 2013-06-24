@@ -1,3 +1,7 @@
+body {
+	text-align: center;
+}
+
 div {
 color: #08298A;
 font: cursive;
@@ -9,6 +13,13 @@ font-weight: bold;
 p {
 font-family: Geneva;
 
+}
+
+h1 {
+	color: #B45F04; 
+	font-family: Garamond; 
+	font-size: 28pt
+	font-weight: bold;
 }
 
 h2 {
