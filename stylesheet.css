@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: 'KingthingsWroteRegular';
     src: url('fonts/kingthings_wrote/Kingthings_Wrote-webfont.eot');
@@ -18,18 +20,19 @@ body {
 header h1 {
 	color: #B45F04; 
 	font-family: Geneva; 
-	font-size: 28pt
+	font-size: 2em;
 	font-weight: bold;
 	float:left;
-	font-variant: small-caps;
+	margin-top: 2%;
 }
 
 header nav ul li {
 	font-family: Geneva;
 	float: right;
 list-style: none; 
-padding-left: 10px;
-padding-top: 20px;}
+padding-left: 20px;
+margin-top: 2%;
+font-size: 1.5em;}
 
 hr {clear:both;}
 
@@ -60,7 +63,7 @@ a {text-decoration:none;
 	color: #B45F04; 
 }
 
-div img {float:right;}
+div img {float:right; margin-bottom: 20px;}
 
 footer {margin-top: 20px;}
 footer p {font-family: Geneva;
