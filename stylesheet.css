@@ -1,5 +1,4 @@
 
-
 @font-face {
     font-family: 'KingthingsWroteRegular';
     src: url('fonts/kingthings_wrote/Kingthings_Wrote-webfont.eot');
@@ -45,7 +44,8 @@ display:inline;}
 header nav ul li a {text-decoration:none;
 	color: #B45F04; 
 }
-header nav ul li a:hover {background-color: #caecca;}
+header nav ul li a:hover {background-color: #caecca;
+border-radius: 10px;}
 
 
 hr {
@@ -119,8 +119,10 @@ margin-bottom: 30px;
 text-decoration:none;
 	color: #B45F04; 
 text-align: justify;}
+
 footer img {width:50px;
 border-radius: 10px;}
+
 footer img:hover {background-color: #caecca;
 }
 
