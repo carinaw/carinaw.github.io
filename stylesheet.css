@@ -1,54 +1,70 @@
+@font-face {
+    font-family: 'KingthingsWroteRegular';
+    src: url('fonts/kingthings_wrote/Kingthings_Wrote-webfont.eot');
+    src: url('fonts/kingthings_wrote/Kingthings_Wrote-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/kingthings_wrote/Kingthings_Wrote-webfont.woff') format('woff'),
+         url('fonts/kingthings_wrote/Kingthings_Wrote-webfont.ttf') format('truetype'),
+         url('fonts/kingthings_wrote/Kingthings_Wrote-webfont.svg#KingthingsWroteRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	width: 1024px;
 	margin: 0 auto;
+	margin-top: 1%;
 }
 
 header h1 {
 	color: #B45F04; 
-	font-family: Garamond; 
+	font-family: Geneva; 
 	font-size: 28pt
 	font-weight: bold;
 	float:left;
+	font-variant: small-caps;
 }
 
-header ul li {float: right;
-list-style: none; padding: 20px;}
+header nav ul li {
+	font-family: Geneva;
+	float: right;
+list-style: none; 
+padding-left: 10px;
+padding-top: 20px;}
 
 hr {clear:both;}
 
-div {
+div {margin-bottom: 10px;}
+
+div p {
 color: #08298A;
 font-family: Garamond;
 font-size: 18pt;
 font-weight: bold;
 }
 
-p {
+section {
+font-family: Geneva;
+}
+section h2 {
 font-family: Geneva;
 }
 
-
-
-h2 {
-font-family: Geneva;
-}
-
-ul {
-	list-style-position:inside;
-	list-style-image: url("snowflake-black.png");
+section ul {
+	list-style-position:outside;
+	list-style-image: url("images/snowflake-black.png");
 	vertical-align: middle;
 }
 
-li {
-font-family: Geneva;
-}
 
-a {
-	text-decoration:none;
+a {text-decoration:none;
 	color: #B45F04; 
 }
-a:hover {
-	background-color: #CEF6CE;
-}
 
+div img {float:right;}
+
+footer {margin-top: 20px;}
+footer p {font-family: Geneva;
+float:left;}
+footer a {float:left;
+padding-left: 10px;}
 ;
