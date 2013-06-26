@@ -25,39 +25,49 @@ header h1 {
 	float:left;
 	margin-top: 2%;
 }
+header h1 span {font-family:'KingthingsWroteRegular';}
 
 header nav ul li {
 	font-family: Geneva;
-	float: right;
+	display:inline;
 list-style: none; 
 padding-left: 20px;
 margin-top: 2%;
-font-size: 1.5em;}
+font-size: 1.5em;
+text-indent: -1.5em;}
+
+header nav ul {float: right;
+display:inline;}
 
 hr {clear:both;}
 
 div {margin-bottom: 10px;}
 
 div p {
-color: #08298A;
-font-family: Garamond;
-font-size: 18pt;
+color: #488649;
+font-family: Geneva;
+font-size: 1em;
 font-weight: bold;
+margin-top: 20px;
 }
 
 section {
 font-family: Geneva;
 }
-section h2 {
-font-family: Geneva;
+section h3 {
+font-family: 'KingthingsWroteRegular';
 }
 
 section ul {
 	list-style-position:outside;
 	list-style-image: url("images/snowflake-black.png");
 	vertical-align: middle;
+	margin-left: 0px;
 }
 
+section ul li {
+	line-height: 24px;
+}
 
 a {text-decoration:none;
 	color: #B45F04; 
