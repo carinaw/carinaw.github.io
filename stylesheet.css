@@ -24,6 +24,7 @@ header h1 {
 	font-weight: bold;
 	float:left;
 	margin-top: 20px;
+	letter-spacing: 3px;
 }
 header h1 span {font-family:'KingthingsWroteRegular';}
 
@@ -31,11 +32,11 @@ header nav ul li {
 	font-family: Geneva;
 	display:inline;
 list-style: none; 
-padding-left: 20px;
+padding-left: 30px;
 margin-top: 40px;
 font-size: 1.5em;
-text-indent: -1.5em;
-margin-bottom: 10px;}
+margin-bottom: 10px;
+letter-spacing: 3px;}
 
 header nav ul {float: right;
 display:inline;}
@@ -92,28 +93,36 @@ font-family: 'KingthingsWroteRegular';
 }
 
 section ul {
-	list-style-position:outside;
+	list-style-position:inside;
 	list-style-image: url("images/snowflake-black.png");
 	vertical-align: middle;
 	margin-left: 0px;
 }
 
 section ul li {
-	line-height: 24px;
+	line-height: 28px;
+	text-indent: -40px;
 }
 
 
 
-div img {float:right; margin-bottom: 20px;}
+div img {float:right; 
+width: 52%;
+	margin-bottom: 20px;}
 
 footer {margin-top: 20px;}
 footer p {font-family: Geneva;
 float:left;}
 footer a {float:left;
-padding-left: 20px; 
+padding-left: 30px;
+margin-bottom: 30px; 
 text-decoration:none;
 	color: #B45F04; 
 text-align: justify;}
+footer img {width:50px;
+border-radius: 10px;}
+footer img:hover {background-color: #caecca;
+}
 
 
 ;
