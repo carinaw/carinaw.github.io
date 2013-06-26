@@ -23,7 +23,7 @@ header h1 {
 	font-size: 2em;
 	font-weight: bold;
 	float:left;
-	margin-top: 2%;
+	margin-top: 20px;
 }
 header h1 span {font-family:'KingthingsWroteRegular';}
 
@@ -32,14 +32,47 @@ header nav ul li {
 	display:inline;
 list-style: none; 
 padding-left: 20px;
-margin-top: 2%;
+margin-top: 40px;
 font-size: 1.5em;
-text-indent: -1.5em;}
+text-indent: -1.5em;
+margin-bottom: 10px;}
 
 header nav ul {float: right;
 display:inline;}
 
-hr {clear:both;}
+
+header nav ul li a {text-decoration:none;
+	color: #B45F04; 
+}
+header nav ul li a:hover {background-color: #caecca;}
+
+
+hr {
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: 1px;
+  margin: 1.4em 0;
+  border: none; 
+  background: #ddd;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      right bottom,
+      color-stop(0, rgb(255,255,255)),
+      color-stop(0.1, rgb(221,221,221)),
+      color-stop(0.9, rgb(221,221,221)),
+      color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      left center,
+      rgb(255,255,255) 0%,
+      rgb(221,221,221) 10%,
+      rgb(221,221,221) 90%,
+      rgb(255,255,255) 100%
+  );
+}
+
 
 div {margin-bottom: 10px;}
 
@@ -69,9 +102,7 @@ section ul li {
 	line-height: 24px;
 }
 
-a {text-decoration:none;
-	color: #B45F04; 
-}
+
 
 div img {float:right; margin-bottom: 20px;}
 
@@ -79,5 +110,10 @@ footer {margin-top: 20px;}
 footer p {font-family: Geneva;
 float:left;}
 footer a {float:left;
-padding-left: 10px;}
+padding-left: 20px; 
+text-decoration:none;
+	color: #B45F04; 
+text-align: justify;}
+
+
 ;
