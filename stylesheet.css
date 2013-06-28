@@ -34,7 +34,7 @@ header h1 {
 	font-size: 2em;
 	font-weight: bold;
 	float:left;
-	margin-top: 20px;
+	margin-top: 25px;
   padding-left: 20px;
 	letter-spacing: 3px;
 }
@@ -44,8 +44,7 @@ header nav ul li {
 	font-family: Geneva;
 	display:inline;
 list-style: none; 
-padding-left: 30px;
-padding-right: 20px;
+padding-left: 20px;
 margin-top: 40px;
 font-size: 1.5em;
 margin-bottom: 10px;
@@ -53,7 +52,9 @@ letter-spacing: 3px;
 }
 
 header nav ul {float: right;
-display:inline;}
+display:inline;
+padding-right: 70px;
+}
 
 
 header nav ul li a {text-decoration:none;
@@ -131,7 +132,7 @@ padding-right: 20px;}
 footer {margin-top: 20px;}
 
 footer a {float:left;
-padding-right: 30px;
+padding-right: 20px;
 padding-left: 20px;
 margin-bottom: 30px; 
 text-decoration:none;
@@ -145,5 +146,5 @@ footer img:hover {background-color: #FF8D7E;
 }
 footer h3 {font-family: 'KingthingsWroteRegular';
 float:right;
-padding-right: 145px;
+padding-right: 115px;
 color: #B7815E;}
