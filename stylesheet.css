@@ -35,7 +35,8 @@ padding-left: 30px;
 margin-top: 40px;
 font-size: 1.5em;
 margin-bottom: 10px;
-letter-spacing: 3px;}
+letter-spacing: 3px;
+}
 
 header nav ul {float: right;
 display:inline;}
@@ -45,7 +46,7 @@ header nav ul li a {text-decoration:none;
 	color: #FF654F; 
 }
 header nav ul li a:hover {background-color: #C3E6DB;
-border-radius: 10px;}
+border-radius: 5px;}
 
 
 hr {
@@ -83,6 +84,7 @@ font-family: Geneva;
 font-size: 1em;
 font-weight: bold;
 margin-top: 20px;
+line-height: 1.5em;
 }
 
 section {
@@ -100,7 +102,7 @@ section ul {
 }
 
 section ul li {
-	line-height: 28px;
+	line-height: 2em;
 	text-indent: -40px;
 }
 
