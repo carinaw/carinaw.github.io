@@ -10,6 +10,18 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'DrawveticaMiniMedium';
+    src: url('fonts/drawveticamini/DrawveticaMini-webfont.eot');
+    src: url('fonts/drawveticamini/DrawveticaMini-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/drawveticamini/DrawveticaMini-webfont.woff') format('woff'),
+         url('fonts/drawveticamini/DrawveticaMini-webfont.ttf') format('truetype'),
+         url('fonts/drawveticamini/DrawveticaMini-webfont.svg#DrawveticaMiniMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
 	width: 1024px;
 	margin: 0 auto;
