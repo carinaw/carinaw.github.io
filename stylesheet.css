@@ -17,7 +17,7 @@ body {
 }
 
 header h1 {
-	color: #B45F04; 
+	color: #6AC6AB; 
 	font-family: Geneva; 
 	font-size: 2em;
 	font-weight: bold;
@@ -42,9 +42,9 @@ display:inline;}
 
 
 header nav ul li a {text-decoration:none;
-	color: #B45F04; 
+	color: #FF654F; 
 }
-header nav ul li a:hover {background-color: #caecca;
+header nav ul li a:hover {background-color: #C3E6DB;
 border-radius: 10px;}
 
 
@@ -78,7 +78,7 @@ hr {
 div {margin-bottom: 10px;}
 
 div p {
-color: #488649;
+color: #B7815E;
 font-family: Geneva;
 font-size: 1em;
 font-weight: bold;
@@ -123,7 +123,7 @@ text-align: justify;}
 footer img {width:50px;
 border-radius: 10px;}
 
-footer img:hover {background-color: #caecca;
+footer img:hover {background-color: #FF8D7E;
 }
 
 
