@@ -26,7 +26,14 @@ body {
 	width: 1024px;
 	margin: 0 auto;
 	margin-top: 1%;
+
+  transition:all .2s linear; 
+    -o-transition:all .2s linear; 
+    -moz-transition:all .2s linear; 
+    -webkit-transition:all .2s linear;
 }
+
+
 
 header h1 {
 	color: #6AC6AB; 
@@ -142,7 +149,7 @@ text-align: justify;}
 footer img {width:50px;
 border-radius: 10px;}
 
-footer img:hover {background-color: #FF8D7E;
+footer img:hover {background-color: #B7815E;
 }
 footer h3 {font-family: 'KingthingsWroteRegular';
 float:right;
