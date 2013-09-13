@@ -141,8 +141,9 @@ header {
 	font-size: 12px;
 }
 
-.content a {text-decoration: none; color: black;}
+.content a {text-decoration: none; color: black; font-weight: bold;}
 
+.content a:hover {background-color: #3B8183; color: #FAD089;}
 
 	#notes {
 	height: 200px;
