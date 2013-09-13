@@ -87,7 +87,7 @@ header {
 	margin-left: 30px;
 	}	
 
-	a {text-decoration: none; color: black;
+	header nav ul li a {text-decoration: none; color: black;
 	border-radius: 20px;
 	padding: 3px 11px;}
 	
@@ -110,16 +110,18 @@ header {
 
 	div aside {
 	height:300px;
-	width: 400px;
-	display: block;
+	width: 390px;
 	float: right;
 	background-color: #FF9C5B;
-
+	display: block;
+	border-radius: 15px;
 	}
 
 	div aside img {
-	height: 80%;
-	width: 80%;	
+	height: 300px;
+	width: 390px;	
+	border-radius: 15px;
+
 	}
 
 	#text {
@@ -129,8 +131,7 @@ header {
 	display: block;
 	float: left;
 	border: 2px solid;
-	border-radius: 15px
-	;
+	border-radius: 15px;
 	}
 
 .content {
@@ -157,12 +158,19 @@ footer {
 	font-size: 16px;
 }
 
-footer nav {padding-top: 17px; float:left;}
+footer nav {padding-top: 4px; float:left;}
 footer nav ul li {display:inline; margin-left: 20px;}
 
+footer nav ul li a img {height: 40px;
+		width: 40px; border-radius: 10px;}
+
+footer nav ul li a {text-decoration:none; 
+	}
+
+footer nav ul li a img:hover {background-color: #FAD089; border-radius: 10px;}
 
 footer span {
 	float: right;
 	line-height: 1;
-	margin: 17px 20px 20px 20px;
+	margin: 17px 20px 20px 0px;
 }
