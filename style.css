@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	font-size: 13px;
 }
 ol, ul {
 	list-style: none;
@@ -44,17 +45,124 @@ table {
 }
 
 body {
-	width: 1024px;
+	width: 940px;
 	margin: 0 auto;
 	margin-top: 1%;
-
+	font-family: Geneva, sans-serif;
   transition:all .2s linear; 
     -o-transition:all .2s linear; 
     -moz-transition:all .2s linear; 
     -webkit-transition:all .2s linear;
 }
 
-div #header {
+header {
+	margin-top: 30px;
+	height: 48px;
+	width: 940px;
+	line-height: 100%;
+	display: block;
+	
+	border-bottom: 2px solid rgba(0,0,0,0.1);
+	padding-bottom: 3px;
+}
+
+	header h1 {
+	font-size: 20px;
+	line-height: 1;
+	float: left;
+	padding: 13px 20px 0 20px;
+	font-color: #424242;
+	font-weight: 700;
+	}
+	header nav {
+	float: right;
+	font-size: 14px;
+	line-height: 1;
+	margin: 19px 20px 0 0;
+	font-family: 'Trebuchet MS';
+	
+	}
+	header nav ul li {
+	display: inline;
+	margin-left: 30px;
+	}	
+
+	a {text-decoration: none; color: black;
+	border-radius: 20px;
+	padding: 3px 11px;}
+	
+	header nav ul li a:hover 
+	{background-color: #3B8183;}
+
+	header nav ul li a:hover 
+	{color: #FAD089;}
 
 
+#container {
+	height: 500px;
+	width: 940px;
+	display: block;
+	margin: 10 0 10 0;
+	line-height: 1.5;
+	border-bottom: 2px solid rgba(0,0,0,0.1);
+	padding-bottom: 3px;
+}
+
+	div aside {
+	height:300px;
+	width: 400px;
+	display: block;
+	float: right;
+	background-color: #FF9C5B;
+
+	}
+
+	div aside img {
+	height: 80%;
+	width: 80%;	
+	}
+
+	#text {
+	height: 300px;
+	width: 536px;
+	background-color: #FAD089;
+	display: block;
+	float: left;
+	border: 2px solid;
+	border-radius: 15px
+	;
+	}
+
+.content {
+	position: relative;
+	padding: 20px 20px 20px 20px;
+	line-height: 1.6
+	font-size: 12px;
+}
+
+	#notes {
+	height: 200px;
+	width: 940px;
+	clear: both;
+		
+	}
+
+footer {
+	height: 48px;
+	width: 940px;
+	display: block;
+	background-color: #3B8183;
+	border-radius: 10px;
+	font-family: 'Trebuchet MS';
+	font-size: 16px;
+}
+
+footer nav {padding-top: 17px; float:left;}
+footer nav ul li {display:inline; margin-left: 20px;}
+
+
+footer span {
+	float: right;
+	line-height: 1;
+	margin: 17px 20px 20px 20px;
 }
