@@ -71,6 +71,8 @@ header nav ul li a:hover {background-color: #C3E6DB;
 border-radius: 5px;}
 
 
+
+
 hr {
   clear: both; 
   float: none; 
@@ -101,9 +103,9 @@ hr {
 div {margin-bottom: 10px;}
 
 div p {
-color: #B7815E;
+color: black;
 font-family: Geneva;
-font-size: 1em;
+font-size: 0.9em;
 font-weight: bold;
 margin-top: 20px;
 line-height: 1.5em;
@@ -144,9 +146,20 @@ padding-left: 20px;
 margin-bottom: 30px; 
 text-decoration:none;
 	color: #B45F04; 
-text-align: justify;}
+text-align: justify;
+  font-family: Geneva;
+  display: table-cell;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
 
-footer img {width:50px;
+footer img {width:45px;
 border-radius: 10px;}
 
 footer img:hover {background-color: #B7815E;
