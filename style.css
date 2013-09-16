@@ -89,7 +89,8 @@ header {
 
 	header nav ul li a {text-decoration: none; color: black;
 	border-radius: 20px;
-	padding: 3px 11px;}
+	padding: 3px 11px;
+}
 	
 	header nav ul li a:hover 
 	{background-color: #3B8183;}
@@ -146,12 +147,26 @@ header {
 
 .content a:hover {background-color: #3B8183; color: #FAD089;}
 
-	#notes {
+#notes {
 	height: 200px;
-	width: 940px;
-	clear: both;
+	width: 536px;
+	float: left;
 		
 	}
+
+#special {
+	height: 200px;
+	width: 390px;
+	float: right;
+	text-align: center;
+	margin: 0 auto;
+	vertical-align: middle;
+	line-height: 200px;
+    font-family: "Trebuchet MS";
+    font-size: 20px; 
+	font-color: #424242;
+	font-weight: 700;
+}
 
 footer {
 	height: 48px;
@@ -176,6 +191,7 @@ footer nav ul li a img:hover {background-color: #FAD089; border-radius: 10px;}
 
 footer span {
 	float: right;
-	line-height: 1;
-	margin: 17px 20px 20px 0px;
+	line-height: 48px;
+	margin-right: 20px;
+	vertical-align: middle;
 }
